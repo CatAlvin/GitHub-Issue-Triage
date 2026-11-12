@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.env.*
+!.env.example
+outputs/
+data/issues_clean.jsonl
+data/issues_raw.jsonl

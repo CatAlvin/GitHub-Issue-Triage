@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>协作工作台</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/assets/app.css?v=2c75074637d1">
+  <script src="/assets/markdown.js?v=2c75074637d1" defer></script>
+  <script src="/assets/app.js?v=2c75074637d1" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <aside class="sidebar">
+    <a class="brand" href="#overview"><span class="brand-mark" aria-hidden="true">C</span><span>协作工作台<span class="brand-small">PROJECT WORKSPACE</span></span></a>
+    <div class="project-control"><label for="project-select">当前项目</label><select id="project-select"><option>正在连接…</option></select></div>
+    <nav id="navigation" aria-label="主要导航">
+      <a href="#overview" data-view="overview"><span class="nav-index">01</span>项目概览</a>
+      <a href="#records" data-view="records"><span class="nav-index">02</span><span id="records-nav">消息记录</span></a>
+      <a href="#actions" data-view="actions"><span class="nav-index">03</span><span id="actions-nav">行动项</span><span class="nav-count" id="action-count"></span></a>
+      <a href="#knowledge" data-view="knowledge"><span class="nav-index">04</span>知识问答</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <button id="theme-button" class="theme-button" type="button">切换深色</button>
+      <div class="profile"><span class="avatar">CL</span><div><strong>ChengLan</strong><span>项目工作区</span></div></div>
+    </div>
+  </aside>
+  <div class="app">
+    <header class="topbar"><div class="breadcrumb">工作区 <span>/</span> <strong id="project-title">加载项目</strong></div><span id="data-date" class="data-date"></span><button id="theme-mobile" class="mobile-theme" type="button">深色</button></header>
+    <main id="main" tabindex="-1">
+      <div class="page-heading"><div><p class="section-label" id="section-label">工作概况</p><h1 id="page-title">项目概览</h1><p id="page-description" class="page-description">正在读取项目数据</p></div><div class="page-tools"><button id="refresh-button" class="button secondary" type="button">刷新</button><button id="export-button" class="button primary" type="button">导出简报 <span aria-hidden="true">↗</span></button></div></div>
+      <div id="content" aria-live="polite"><div class="loading-state"><span class="spinner"></span>正在整理工作区…</div></div>
+    </main>
+    <footer class="page-footer"><span id="footer-project">协作工作台</span><span id="footer-count"></span></footer>
+  </div>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-heading"><div><p class="section-label" id="detail-label">详细内容</p><h2 id="detail-title"></h2></div><button class="button square secondary" type="button" data-close aria-label="关闭详情">×</button></div><div id="detail-content"></div></dialog>
+  <dialog id="auth-dialog" aria-labelledby="auth-title"><form id="auth-form"><h2 id="auth-title">连接工作区</h2><p class="muted">输入访问令牌，继续查看项目。</p><label for="access-token">访问令牌</label><input id="access-token" type="password" autocomplete="off" required><p id="auth-error" role="alert"></p><button class="button primary" type="submit">连接</button></form></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

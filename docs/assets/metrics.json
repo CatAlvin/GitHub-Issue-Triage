@@ -1,0 +1,41 @@
+{
+  "project": "GitHub Issue Triage",
+  "records": 25,
+  "dataset": "data/sample_issues.jsonl",
+  "knowledge_documents": 1,
+  "knowledge_chunks": 9,
+  "tests_by_module": {
+    "api": 5,
+    "business": 10,
+    "mcp": 1,
+    "workbench": 5
+  },
+  "test_count": 21,
+  "states": {
+    "open": 21,
+    "closed": 4
+  },
+  "labels": {
+    "new release": 8,
+    "spam": 2,
+    "*duplicate": 1,
+    "feature-request": 2,
+    "agents-window": 2,
+    "unreleased": 1,
+    "agent-host": 6,
+    "network": 2,
+    "agent-sandbox": 1,
+    "ai-translated": 1
+  },
+  "unlabeled": 7,
+  "risk_rules": 3,
+  "period_start": "2026-09-23T19:36:16Z",
+  "period_end": "2026-09-24T00:01:16Z",
+  "mcp_tools": [
+    "dataset_info",
+    "search_issues",
+    "scan_risks",
+    "summarize_issues",
+    "ask_contributing"
+  ]
+}

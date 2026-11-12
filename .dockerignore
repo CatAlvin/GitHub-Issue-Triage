@@ -1,0 +1,9 @@
+.venv
+.git
+__pycache__
+*.pyc
+.env
+.env.*
+outputs
+data/issues_clean.jsonl
+data/issues_raw.jsonl

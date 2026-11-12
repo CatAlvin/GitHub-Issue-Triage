@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="270" viewBox="0 0 1100 270" role="img">
+<style>text{font-family:Segoe UI,Arial,sans-serif}</style>
+<rect width="1100" height="270" rx="18" fill="#f5f7f1"/>
+<title>GitHub Issue Triage</title>
+<text x="40" y="43" fill="#56695c" font-size="12" font-weight="600">CHENGLAN  /  PYTHON APPLICATIONS</text>
+<text x="40" y="103" fill="#213c2b" font-size="42" font-weight="650">GitHub Issue Triage</text>
+<text x="40" y="136" fill="#56695c" font-size="18" font-weight="400">Issue search, risk evidence and cited answers</text>
+<path d="M40 165H1060" stroke="#d3dfd4"/>
+<text x="40" y="214" fill="#32694a" font-size="32" font-weight="650">25</text>
+<text x="105" y="210" fill="#56695c" font-size="15" font-weight="400">public issues</text>
+<text x="303" y="214" fill="#32694a" font-size="32" font-weight="650">3</text>
+<text x="368" y="210" fill="#56695c" font-size="15" font-weight="400">risk rules</text>
+<text x="566" y="214" fill="#32694a" font-size="32" font-weight="650">5</text>
+<text x="631" y="210" fill="#56695c" font-size="15" font-weight="400">MCP tools</text>
+<text x="829" y="214" fill="#32694a" font-size="32" font-weight="650">21</text>
+<text x="894" y="210" fill="#56695c" font-size="15" font-weight="400">Python tests</text>
+<text x="40" y="247" fill="#56695c" font-size="12" font-weight="400">Bundled dataset and discovered tests  |  scripts/readme_assets.py</text>
+</svg>
