@@ -5,7 +5,7 @@
 
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong> · <a href="#本地运行">本地运行</a> · <a href="#系统结构">系统结构</a> · <a href="specs/README.md">项目规格</a></p>
 <p align="center">
-  <a href="https://github.com/CatAlvin/GitHub-Issue-Triage/actions/workflows/ci.yml"><img src="https://github.com/CatAlvin/GitHub-Issue-Triage/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/CatAlvin/GitHub-Issue-Triage/actions/workflows/ci.yml"><img src="https://github.com/CatAlvin/GitHub-Issue-Triage/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI"></a>
   <img src="https://img.shields.io/badge/Python-3.12-32694a?style=flat" alt="Python 3.12">
   <img src="https://img.shields.io/badge/API-FastAPI-32694a?style=flat" alt="FastAPI">
   <img src="https://img.shields.io/badge/MCP-stdio%20%2B%20HTTP-32694a?style=flat" alt="MCP stdio 与 HTTP">
